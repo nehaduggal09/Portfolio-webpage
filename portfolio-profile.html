@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neha Duggal | Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
 
@@ -10,18 +12,19 @@
         <p>Aspiring AI/ML Engineer & MERN Stack Developer</p>
     </header>
 
-    <nav>
-        <a href="#about">About Me</a> |
-        <a href="#education">Education</a> |
-        <a href="#experience">Work Experience</a> |
-        <a href="#projects">Projects</a> |
-        <a href="#skills">Skills</a> |
-        <a href="#contact">Contact</a>
+    <nav id="container">
+        <a href="#about">About Me</a> 
+        <a href="#education">Education</a> 
+        <a href="#experience">Work Experience</a> 
+        <a href="#projects">Projects</a> 
+        <a href="#skills">Skills</a> 
+        <a href="#contact">Contact me</a>
     </nav>
 
     <hr>
 
     <main>
+        <div class="info-container">
 
         <section id="about">
             <h2>About Me</h2>
@@ -61,12 +64,13 @@
                 development and version control.
             </p>
         </section>
+    </div>
 
         <hr>
 
         <section id="skills">
-            <h2>Technical Skills</h2>
-            <ol>
+            <h2 id="skills-heading">Technical Skills</h2>
+            <ol class="skills-box">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -83,36 +87,44 @@
 
             <ol>
                 <li>
-                    <h3>Portfolio Website</h3>
+                    <div>
+                    <h3 class="project">Portfolio Website</h3>
                     <p>
                         Developed a personal portfolio website using HTML
                         to showcase education, skills, and projects.
                     </p>
+                    </div>
                 </li>
 
                 <li>
-                    <h3>Medicure AI Assistant</h3>
+                    <div>
+                    <h3 class="project">Medicure AI Assistant</h3>
                     <p>
                         An AI-powered healthcare assistant that analyzes
                         symptoms and suggests possible precautions.
                     </p>
+                    </div>
                 </li>
 
                 <li>
-                    <h3>College Admission Form</h3>
+                    <div>
+                    <h3 class="project">College Admission Form</h3>
                     <p>
                         Designed a student admission form using HTML form
                         elements and validation features.
                     </p>
+                    </div>
                 </li>
 
                 <li>
-                    <h3>Beauty & Fashion Website Clone</h3>
+                    <div>
+                    <h3 class="project">Beauty & Fashion Website Clone</h3>
                     <p>
                         Created an e-commerce style website featuring
                         product listings, search functionality, and a
                         user-friendly interface.
                     </p>
+                    </div>
                 </li>
             </ol>
         </section>

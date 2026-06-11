@@ -1,20 +1,27 @@
 # Portfolio Webpage
 
-A simple personal portfolio webpage created using HTML. This project presents my profile, skills, projects, and contact information through a structured and user-friendly layout.
+A responsive personal portfolio website developed using HTML5 and CSS3. This project showcases my profile, educational background, technical skills, projects, and contact information through a clean, modern, and user-friendly interface.
 
 ## Features
-- About Me section
-- Education section 
-- Skills section
-- Projects section
-- Contact Information
-- Simple and organized layout
 
-## Technology Used
-- HTML5
+* Responsive design for different screen sizes
+* About Me section
+* Education section
+* Technical Skills section
+* Projects showcase
+* Contact Information section
+* Clean and organized navigation layout
+* Attractive styling using CSS
+
+## Technologies Used
+
+* HTML5
+* CSS3
 
 ## Purpose
-This project was developed to practice HTML and understand the fundamentals of web page structure.
+
+This project was created to strengthen my understanding of front-end web development concepts, including webpage structure, styling, layout design, and responsive web design techniques.
 
 ## Author
-Neha Duggal
+
+**Neha Duggal**

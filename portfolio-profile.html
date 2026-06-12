@@ -8,6 +8,9 @@
 <body>
 
     <header>
+        <button onclick="showWelcome()">Click Me</button>
+
+        <h3 id="welcome"></h3> 
         <h1>Neha Duggal</h1>
         <p>Aspiring AI/ML Engineer & MERN Stack Developer</p>
     </header>
@@ -31,9 +34,15 @@
 
             <!-- Apni image ka httpspath yahan do -->
             <img src="Neha.jpeg" alt="Neha Duggal"
-                 width="180" height="220">
+         width="180" height="220" class="profile-pic">
 
-            <p>
+            <br>
+             <button id="aboutBtn" onclick="toggleAbout()">
+              Show About Me
+             </button>
+
+
+            <p id="about-text" style="display: none;">
                 Hello! I am <b>Neha Duggal</b>, a B.Tech student
                 specializing in Computer Science Engineering with
                 Artificial Intelligence and Machine Learning.
@@ -70,6 +79,9 @@
 
         <section id="skills">
             <h2 id="skills-heading">Technical Skills</h2>
+            <button onclick="countSkills()">Count Skills</button>
+
+            <p id="skill-count"></p>
             <ol class="skills-box">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -78,6 +90,7 @@
                 <li>MERN Stack</li>
                 <li>Machine Learning</li>
             </ol>
+            
         </section>
 
         <hr>
@@ -132,7 +145,7 @@
     </main>
 
     <hr>
-
+    <button onclick="changeColor()">Change Theme</button>
     <footer id="contact">
         <h2>Contact Me</h2>
 
@@ -145,6 +158,6 @@
 
     
     </footer>
-
+    <script src="script1.js"></script>
 </body>
 </html>

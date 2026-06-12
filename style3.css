@@ -81,6 +81,18 @@ footer{
     justify-content:space-evenly;
     flex-direction:row;
 }
+
+#about{
+    text-align: center;
+}
+
+.profile-pic{
+    border-radius: 10px;
+}
+
+#aboutBtn{
+    margin-top: 10px;
+}
 @media(max-width:768px)
 {
   #container{
